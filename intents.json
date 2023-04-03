@@ -1,0 +1,53 @@
+{
+    "intents": [
+
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "greetings", "sup", "what's up", "hey", "hie","makadii","mhoroi"],
+            "responses": ["hi", "hey", "*nods*", "hi there", "hello", "ndiribhoo","tiripo makadiiwo"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "see you later", "Goodbye", "I am Leaving", "Have a good day", "bye","ndatenda"],
+            "responses": ["Sad To see you go", "Talk to you Later", "Bye","tinotenda"],
+            "context_set": ""
+        },
+        {
+            "tag": "chicken pox",
+            "patterns": [ "blister", "scab"," ulcers", " red spots", "fatigue", "fever", " loss of appetite","headache", "itching"," sore throat", " swollen lymph nodes"],
+            "responses": ["Chickenpox is caused by the varicella-zoster virus. You catch it by coming into contact with someone who is infected. Chickenpox is a very contagious infection. Around 90% of people who have not previously had chickenpox will become infected when they come into contact with the virus. "],
+            "context_set": ""
+        },
+        
+        {
+            "tag": "measles",
+            "patterns": [" fever", "malaise", "fatigue", "loss of appetite"," runny nose" ," sneezing","skin rash", "dry cough", "pink eye", "diarrhoea", "headache", "koplik's spots", "photophobia", "sore throat", " swollen lymph nodes"],
+            "responses": ["The differential diagnosis of measles includes rubella, roseola, Kawasaki syndrome, scarlet fever, and rickettsial, enteroviral and adenoviral infections. Complications of the disease include pneumonia and encephalitis, which can be fatal."],
+            "context_set": ""
+        },
+        
+        {
+            "tag": "diabetes",
+            "patterns": ["some signs and symptoms of diabetes include","Feeling more thirsty than usual","Urinating often","Losing weight without trying","Presence of ketones in the urine, Ketones are a byproduct of the breakdown of muscle and fat that happens when there's not enough available insulin","Feeling tired and weak","Feeling irritable or having other mood changes","Having blurry vision","Having slow-healing sores","Getting a lot of infections, such as gum, skin and vaginal infections "],
+
+            "responses": [" some preventive measures include,A healthy diet, regular physical activity, maintaining a normal body weight and avoiding tobacco use are ways to prevent or delay the onset of type 2 diabetes. Diabetes can be treated and its consequences avoided or delayed with diet, physical activity, medication and regular screening and treatment for complications."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "cancer ",
+            "patterns": ["Ways of preventing cancer", "signs and symptoms of cancer", "Measures to prevent", "How can you prevent cancer"],
+            "responses": ["signs and symptoms include:","fatigue or extreme tiredness that doesnt get better with rest","Weight loss or gain of 10 pounds or more for no known reason","Eating problems such as not feeling hungry", "trouble swallowing", "belly pain"," nausea and vomiting","Swelling or lumps anywhere in the body","Thickening or lump in the breast or other part of the body,Pain, especially new or with no known reason, that doesn’t go away or gets worse","Skin changes such as a lump that bleeds or turns scaly, a new mole or a change in a mole", "a sore that does not heal," ,"a,yellowish color to the skin or eyes (jaundice)","Cough or hoarseness that does not go away","Unusual bleeding or bruising for no known reason","Change in bowel habits such as constipation or diarrheathat doesnt go away or a change in how your stools look","Bladder changes such as pain when passing urine," ,"blood in the urine or needing to pass urine more or less often","Fever or nights sweats,Headaches","Vision or hearing problems","Mouth changes such as sores,bleeding,pain or numbness"],
+            "context_set": ""
+
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name", "Who are you"],
+            "responses": ["Portable Doctor", "You can call me Dr Portable"],
+            "context_set": ""
+        }
+
+    ]
+}
